@@ -1,4 +1,4 @@
-# yourls-recaptcha-v3-admin
+# admin-yourls-recaptcha-v3
 Secure YOURLS Admin with reCaptcha V3
 
 Description

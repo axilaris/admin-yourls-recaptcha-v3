@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: reCAPTCHA v3 for YOURLS Admin
-Plugin URI: https://github.com/axilaris/yourls-recaptcha-v3-admin
+Plugin URI: https://github.com/axilaris/admin-yourls-recaptcha-v3/
 Description: Adds reCAPTCHA v3 to the YOURLS Admin login form.
 Version: 1.0
 Author: Firdaus Mah

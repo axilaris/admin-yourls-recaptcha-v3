@@ -14,13 +14,13 @@ define("recaptchaV3SiteKey", RECAPTCHAV3SITEKEY );
 // reCAPTCHA V3 Secret Key
 define("recaptchaV3SecretKey",  RECAPTCHAV3SECRETKEY);
 
-// Add reCAPTCHA script to the head section of the HTML file
+// reCAPTCHA script to the head section of the HTML file
 yourls_add_action('html_head', 'recaptcha_v3_html_head');
 function recaptcha_v3_html_head() {
     echo '<script src="https://www.google.com/recaptcha/api.js?render=' . recaptchaV3SiteKey . '"></script>';
 }
 
-// Add reCAPTCHA widget to the YOURLS admin login form
+// reCAPTCHA widget to the YOURLS admin login form
 yourls_add_action('login_form_bottom', 'recaptcha_v3_login_form');
 function recaptcha_v3_login_form() {
     echo '<div id="recaptcha"></div>';

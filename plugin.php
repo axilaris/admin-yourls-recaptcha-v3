@@ -33,8 +33,6 @@ function recaptcha_v3_inject_script() {
     echo '<script>
         grecaptcha.ready(function() {
             grecaptcha.execute(\'' . recaptchaV3SiteKey . '\', {action: \'submit\'}).then(function(token) {
-                // Add your logic to submit the form here
-                console.log("submitted recaptcha");
                 document.getElementById(\'tokenInput\').value = token;
             });
         });
